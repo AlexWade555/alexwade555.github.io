@@ -34,8 +34,14 @@ a:hover {
 }
 .container {
   display: flex;
-  width: 50%;
+  width: 100%;
   /* border: 2px solid blue; */
+}
+.slides {
+  flex: 1;
+}
+.content {
+  flex: 1;
 }
 
 @media (max-width: 960px) {
